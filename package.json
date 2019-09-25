@@ -1,0 +1,26 @@
+{
+  "name": "selfmicrositesdocs",
+  "version": "1.0.0",
+  "description": "1. General.\r    - Descripción del software\r    - Idioma.\r   - Iconos.\r   - Filtros.\r    - Medidas de seguridad y contingencia.",
+  "main": "index.js",
+  "dependencies": {
+    "vuepress": "^0.14.10",
+    "webpack-dev-middleware": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vuepress:dev": "vuepress dev docs",
+    "vuepress:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/placetopay/self-microsites-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/placetopay/self-microsites-docs/issues"
+  },
+  "homepage": "https://github.com/placetopay/self-microsites-docs#readme"
+}
