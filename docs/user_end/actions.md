@@ -1,8 +1,9 @@
 # Acciones
 
+
 ## Categorías
 
-Las categorías te permite identificar de una forma amigable y fácil a los micrositios que se agregan a la plataforma de PlacetoPay.
+Las categorías permiten identificar de una forma amigable y fácil a los micrositios que se agregan a la plataforma de PlacetoPay.
 
 ![myProfile](../../images_folder/user_end/actions/categoriesUser.png)
 

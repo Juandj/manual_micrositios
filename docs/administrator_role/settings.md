@@ -41,7 +41,7 @@ Para crear un estado debes seleccionar el botón **Crear nuevo** ubicado en la p
 
 ![states](../../images_folder/administrator/settings/States/createState.png)
 
-En este debes de ingresar el nombre del estado, y seleccionar el país al que pertenece este.
+En este debes de ingresar el nombre del estado, y seleccionar el país al que pertenece este, si el país no se encuentra en el listado debes dirigirte al módulo de [Países](/administrator_role/settings.md#paises+-) para proceder con la creación del mismo.
 
 Al terminar de ingresar los datos debes seleccionar el botón **Guardar** para que termines la creación del estado.
 

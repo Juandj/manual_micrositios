@@ -6,9 +6,13 @@ Es de resaltar que el administrador no podrá crear, anular, autorizar o pagar u
 
 A continuación se explica como funciona el sistema de [Micrositios](https://sites.placetopay.com/) de PlacetoPay
 
+Para un comercio empezar a utilizar la plataforma de micrositios debe estar configurado en la [consola de PlacetoPay](https://panel.placetopay.com) y de igual forma los sitios que hacen parte de este y que interactuarán con el micrositio y demás funcionalidades del sistema.
+
 ## Facturas
 
 En este módulo se pueden ejecutar varias actividades las cuales permiten tener un control de las facturas con las que se desea interactuar en el sistema.
+
+Vale anotar que desde aquí al igual que desde la [consola de PlacetoPay](https://panel.placetopay.com/) se pueden importar desde un archivo las facturas que se deben pagar desde un microstio cerrado.
 
 ![invoices](../../images_folder/administrator/resources/Invoices/invoices.png)
 
@@ -76,7 +80,7 @@ Luego de ello le aparece una carpeta la cual debe contener los archivos planos d
 
 El sistema permite importar de forma masiva a partir de un archivo con formatos diferentes las facturas a los diferentes micrositios que se tengan creados en el sistema, como lo pueden ser: <code>.xls</code> para archivos de excel, <code>.txt</code> para archivos de texto y <code>.csv</code> para archivos separados por comas, .
 
-![selectDateFormat](../../images_folder/administrator/resources/Invoices/selectDateFormat.png)
+![selectDateFormat](../../images_folder/administrator/resources/Invoices/importUniversityFormat.png)
 
 
 **Formato universidades**
@@ -209,7 +213,11 @@ Cuando un reporte es descargado se puede visualizar así:
 
 ## Micrositios
 
-Desde aquí puedes ver cómo crear los diferentes tipos de micrositios que se encuentran en la plataforma.
+Los Micrositios son tanto para venta como para recaudadores. Estos son para aquellos clientes que quieren integrarse a PlacetoPay de una forma efectiva y sin realizar mucho desarrollo.<br>
+Actualmente el sistema maneja varios tipos de micrositios como lo son los micrositios abiertos, cerrados, externos y personalizados. 
+Los micrositios personalizados son para clientes que requieren formularios particulares y que pueden ser desarrollados sobre la plataforma, estos formularios particulares son diferentes porque llegan directamente con la base de datos del comercio por medio de una integración utilizando los web services de ambas partes.
+
+La diferencia entre el micrositio abierto y cerrado es que en el cerrado hay una base de datos con unas facturas y el usuario entra a pagar el valor de esa factura. En el abierto, por el contrario,  el usuario decide cuánto quiere pagar adicionalmente estos permiten configurar formularios en los que el comercio decide qué campos quiere pedir y qué validaciones tendrán esos campos.
 
 ![microsites](../../images_folder/administrator/resources/Microsites/microsites.png)
 
@@ -217,7 +225,7 @@ Desde aquí puedes ver cómo crear los diferentes tipos de micrositios que se en
 
 1. Para acceder al panel administrador de Sites debe ser con un usuario (creado en la consola de PlacetoPay) que tenga permisos administradores. 
 2. Para verificar esto, accede a la [consola de PlacetoPay](https://panel.placetopay.com/) e intenta editar un sitio, sí lo puedes hacer significa que puedes crear sin problema un micrositio, pero en el caso contrario no lo podrás hacer.
-3. debes saber la información que se solicita en el formulario de creación:
+3. Debes saber la información que se solicita en el formulario de creación:
 
 * *Sitios*: es el sitio(s) creado en la consola de PlacetoPay al cual será asociado al micrositio que se creará.
 * *Nombre*: es el nombre que adoptará el micrositio tanto en la panel administrador de Sites como en el título de la página.
@@ -254,10 +262,10 @@ Este logo lo debe configurar en la consola administrativa de PlacetoPay para que
 **Opciones adicionales micrositios personalizados**:
 * *Servicio*: Este campo permite seleccionar el servicio al que se debe asociar el micrositio personalizado, estos servicios se desarrollan con anterioridad dando cumplimiento a una serie de requerimientos de integración con el comercio, por parte del área de tecnología de PlacetoPay.
 
-* *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites]https://sites.placetopay.com/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
+* *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites](https://sites.placetopay.com/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
 
 **Opciones adicionales micrositios externos**:
-* *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites]https://sites.placetopay.com/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
+* *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites](https://sites.placetopay.ec/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
 
 * *Url de la página web*: este campo permite ingresar una url la cual direcciona al usuario al micrositio desde la categorías que tiene la plataforma [sites](https://sites.placetopay.com/)
 
@@ -344,7 +352,8 @@ Cuando se ingresa al detalle de un micrositio abierto puedes ver en la parte sup
 
       ![microsites](../../images_folder/administrator/resources/Microsites/fieldName.png)
 
-   3. *Valor por defecto*: permite ingresar el valor por defecto que puede tener el campo. No es obligatorio realizar esta opción
+   3. *Valor por defecto*: permite ingresar el valor por defecto que puede tener el campo. No es obligatorio realizar esta opción. <br> 
+   Es requerido en caso de seleccionar un campo tipo texto estatico.
 
       ![microsites](../../images_folder/administrator/resources/Microsites/valueDafault.png)
 
@@ -491,7 +500,7 @@ Para que los cambios se mantengan debe seleccionar el botón **Guardar** ubicado
 
 **Mover campos en micrositio abiertos**
 
-Cuando estás en la opción de ***Diseño de los campos*** es posible mover un campo dentro del formulario hacia otra fila o columna pero se debe tener cuidado porque si mueves un campo a una fila que contenga ya un campo agregado lo remplazara y se debe agregar nuevamente si lo deseas mantener dentro del formulario.
+Cuando estás en la opción de ***Diseño de los campos*** es posible mover un campo dentro del formulario hacia otra fila o columna pero se debe tener cuidado porque si mueves un campo a una fila que contenga ya un campo agregado lo remplazará y se debe agregar nuevamente si lo deseas mantener dentro del formulario.
 
 Para moverlo solo debes seleccionar el campo que quieres mover y con clic sostenido se debe desplazar hasta la posición deseada dentro de las filas del formulario.
 
@@ -607,7 +616,7 @@ En caso que un sitio se elimine desde la consola administrativa de PlacetoPay y 
 
 ## Link de pago
 
-Es la funcionalidad que ofrece placetoPay para generar un enlace con los datos relevantes como: valor de la venta, referencia de su producto y datos del comprador, para ser utilizado en correos electrónicos, chat o redes sociales.
+Es la funcionalidad que ofrece PlacetoPay para generar un enlace con los datos relevantes como: valor de la venta, referencia de su producto y datos del comprador, para ser utilizado en correos electrónicos, chat o redes sociales.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/paymentLink.png)
 
@@ -679,6 +688,8 @@ Cuando seleccione **Más datos** el sistema muestra más información que se ing
 También puedes seleccionar **Correos seleccionados** y podrás ver la lista de correos a los que se les a enviado el link.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/detailEmailLink.png)
+
+En caso de que al usuario no le llegue el correo electrónico será posible seleccionar en el listado de *correos relacionados* el Botón **Reenviar Correo** para que el usuario lo pueda acceder.
 
 ### Funcionalidades del link de pagos
 
