@@ -4,9 +4,9 @@ El administrador del sistema tiene acceso a los módulos que permiten configurar
 
 Es de resaltar que el administrador no podrá crear, anular, autorizar o pagar una factura desde la plataforma de administración de micrositios.
 
-A continuación se explica como funciona el sistema de [Micrositios](https://sites.placetopay.com/) de PlacetoPay
-
 Para un comercio empezar a utilizar la plataforma de micrositios debe estar configurado en la [consola de PlacetoPay](https://panel.placetopay.com) y de igual forma los sitios que hacen parte de este y que interactuarán con el micrositio y demás funcionalidades del sistema.
+
+A continuación se explica como funciona el sistema de [Micrositios](https://sites.placetopay.com/) de PlacetoPay
 
 ## Facturas
 
