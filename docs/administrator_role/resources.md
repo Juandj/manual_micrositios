@@ -12,7 +12,7 @@ A continuación se explica como funciona el sistema de [Micrositios](https://sit
 
 En este módulo se pueden ejecutar varias actividades las cuales permiten tener un control de las facturas con las que se desea interactuar en el sistema.
 
-Vale anotar que desde aquí al igual que desde la [consola de PlacetoPay](https://panel.placetopay.com/) se pueden importar desde un archivo las facturas que se deben pagar desde un microstio cerrado.
+Vale anotar que desde aquí al igual que desde la [consola de PlacetoPay](https://panel.placetopay.com/) se pueden importar desde un archivo las facturas que se deben pagar desde un micrositio cerrado.
 
 ![invoices](../../images_folder/administrator/resources/Invoices/invoices.png)
 
@@ -213,7 +213,8 @@ Cuando un reporte es descargado se puede visualizar así:
 
 ## Micrositios
 
-Los Micrositios son tanto para venta como para recaudadores. Estos son para aquellos clientes que quieren integrarse a PlacetoPay de una forma efectiva y sin realizar mucho desarrollo.<br>
+Los Micrositios son tanto para venta como para recaudadores. Estos son para aquellos clientes que quieren integrarse a PlacetoPay de una forma efectiva y sin realizar mucho desarrollo.
+
 Actualmente el sistema maneja varios tipos de micrositios como lo son los micrositios abiertos, cerrados, externos y personalizados. 
 Los micrositios personalizados son para clientes que requieren formularios particulares y que pueden ser desarrollados sobre la plataforma, estos formularios particulares son diferentes porque llegan directamente con la base de datos del comercio por medio de una integración utilizando los web services de ambas partes.
 
