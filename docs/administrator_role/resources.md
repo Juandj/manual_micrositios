@@ -66,7 +66,7 @@ Posteriormente debe dar clic en **Guardar** para completar la descarga, allí en
 
 ![extracZip](../../images_folder/administrator/resources/Invoices/extracZip.png)
 
-Luego de ello le aparece una carpeta la cual debe contener los archivos planos de las facturas consultadas en los filtros anteriormente establecidos con la siguiente información:
+Luego aparece una carpeta la cual debe contener los archivos planos de las facturas consultadas en los filtros anteriormente establecidos con la siguiente información:
 
 **Formato corto**
 
