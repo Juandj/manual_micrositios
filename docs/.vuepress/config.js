@@ -20,7 +20,7 @@ module.exports = {
                 colapsable: true,
                 children: [
                     '/user_end/#entrada-y-salida-del-software.html',
-                    '/user_end/actions.html'
+                    '/user_end/actions.html',
                 ]
             },{
                 title: 'General',
