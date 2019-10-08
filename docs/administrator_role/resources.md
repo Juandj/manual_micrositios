@@ -102,16 +102,40 @@ El archivo para poderlo importar desde un archivo de texto debe quedar como se m
 
 ![textFile](../../images_folder/administrator/resources/Invoices/textFile.png)
 
-Para proceder con el cargue de las facturas debe ingresar los siguientes campos:
+**Formato corto**
+
+Para el importe del archivo en el formato corto se deben cumplir con las siguientes especificaciones:
+
+|NO.|CAMPO|DESCRIPCION|TIPO|LONG.|OBLIGATORIO|
+|---|-----|-----------|----|-----|-----------|
+|1|Código de Orientación|Campo fijo CO = Cobro|CHAR|2|Si|
+|2|Contrapartida|Referencia principal|CHAR|20|Si|
+|3|Moneda|Código de Moneda del Movimiento. Campo fijo USD = Dólares|CHAR|3|Si|
+|4|Valor|Valor del Movimiento = 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576|NUM|13|Si|
+|5|Forma de cobro|Campo fijo REC = Recaudación|CHAR|3|Si|
+|6|Tipo de cuenta|No aplica|CHAR|3|No|
+|7|Número de cuenta|No aplica|NUM|20|No|
+|8|Referencia|Descripción|CHAR|40|Si|
+|9|Tipo ID|Tipo de Identificación del beneficiario o deudor. Campo fijo C = Cédula , R = RUC, P = Pasaporte|CHAR|1|Si|
+|10|Número ID|Número de Identificación del beneficiario o deudor|CHAR|14|Si|
+|11|Nombre|Nombre del beneficiario o deudor|CHAR|41|Si|
+|12|Base imponible|Si no tiene dato se asume el monto del campo Valor. Registrar 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576|NUM|13|Si|
+
+Para poder importar desde un archivo <code>.csv</code>  el *formato corto* debe quedar como se muestra a continuación:
+
+![textFile](../../images_folder/administrator/resources/Invoices/importFormatSmall.png)
+
+* Para proceder con el cargue de las facturas en alguno de los formatos debe ingresar los siguientes campos:
 
 **Sitio**: Este campo es de obligatorio ingreso, en este se despliegan los sitios configurados en la consola de PlacetoPay y en el cual se asocian los registros a importar. <br>
 **Formato**: Debe seleccionar el formato universidades.<br>
 **Archivos**: Este campo es de obligatorio ingreso, desde este debes seleccionar el archivo ya guardado en tu computador y configurado con las condiciones anteriormente presentadas.<br>
 **Fecha de expiración**: Este campo es de obligatorio ingreso, donde el usuario seleccionará en el calendario la fecha y hora de expiración de las facturas (corte), donde una vez superada ésta quedarán inhabilitadas las facturas para su pago.<br>
 **Código de sevicio**: Este campo es de obligatorio ingreso, donde el usuario ingresará el código de servicio especificado por el comercio con el cual identificarán la factura a qué producto/servicio está asociada.<br>
-**Moneda**: Este campo es de obligatorio ingreso, donde el usuario seleccionará el tipo moneda el cual estarán asociados los pagos. Los tipos de moneda allí desplegados son los que el comercio tiene habilitado.
+**Moneda**: Este campo aparece para el formato Universidades es de obligatorio ingreso, donde el usuario seleccionará el tipo moneda el cual estarán asociados los pagos. Los tipos de moneda allí desplegados son los que el comercio tiene habilitado.
 
 Luego de ello debes dar clic en el botón **Importar** donde se te notificará con el mensaje **Validación finalizada, se importarán X facturas** si fue satisfactorio el importe.
+
 
 Adicionalmente, le debe llegar al correo electrónico del usuario logueado la siguiente confirmación notificando que el cargue de las facturas fue exitoso:
 
