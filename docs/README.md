@@ -8,7 +8,7 @@ La aplicación permite conectar a los comercios que no tienen implementada una s
 
 ### [**Administrador:**](/administrator_role/README.md#entrada-y-salida-del-software) 
 
-Los administradores, son los usuarios que podrán configurar los módulos del sistema, crear usuarios, otorgar permisos y administrar el aplicativo de forma general. En este manual encontrará toda la información que le ayudará al administrador a usar la herramienta, Además se explican las funcionalidades básicas del sistema.   
+Los administradores, son los usuarios que podrán configurar los módulos del sistema, crear usuarios, otorgar permisos y administrar el aplicativo de forma general. En este manual encontrará toda la información que le ayudará al administrador a usar la herramienta, además se explican las funcionalidades básicas del sistema.   
 
 ### [**Usuario final:**](/user_end/README.md#entrada-y-salida-del-software)
 
