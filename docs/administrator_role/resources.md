@@ -409,7 +409,9 @@ Cuando se ingresa al detalle de un micrositio abierto puedes ver en la parte sup
    10. Para confirmar las acciones realizadas en los campos seleccione el botón **Guardar cambios** de lo contrario seleccione **Cerrar**
    Inmediatamente se ubica el campo creado al final de la lista.
 
-* Finalmente para mantener lo cambios y habilitar la opción ***Diseño de los campos*** seleccione el botón **Guardar** ubicado en la parte inferior izquierda del formulario.
+* Finalmente para mantener lo cambios y habilitar la opción ***Diseño de los campos*** y **Traducciones** seleccione el botón **Guardar** ubicado en la parte inferior izquierda del formulario.
+
+* Sino se seleeciona el botón **Guardar** en la opción ***Diseño de los campos*** por lo menos una vez despues de que se crea el micrositio abierto la opción de **Traducciones** para este no se habilitará hasta que se ejecute la acción.
 
 * Los campos creados pueden ser editados y borrados como se muestra a continuación:
 
@@ -560,6 +562,8 @@ Para que los cambios se mantengan debe seleccionar el botón **Guardar** ubicado
 #### Traducciones en micrositios
 
 La mayoría de micrositios (Abiertos, cerrados y personalizados) permiten modificar en diferentes idiomas las vistas a las que el usuario final tiene acceso, como es el inicio del micrositio o el detalle de un pago, tambien de esta manera se puede agregar los términos y condiciones que se pueden visualizar allí y que no interfiere con los datos de las facturas de los clientes.
+
+* Se recuerda que si no se seleeciona el botón **Guardar** en la opción ***Diseño de los campos*** por lo menos una vez despues de que se crea el micrositio abierto la opción de **Traducciones** para este no se habilitará hasta que se ejecute la acción ya mencionada.
 
 1. Cuando ingresas al detalle de un micrositio puedes acceder a la opción de **Traducciones** que se encuentra en la parte superior derecha del formulario.
 
