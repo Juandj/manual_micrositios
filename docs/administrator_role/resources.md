@@ -702,7 +702,13 @@ Cuando seleccionas **Guardar y enviar** el correo electrónico que se envía se 
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/emailLink.png)
 
-Desde aquí el tarjetahabiente al seleccionar el botón **Pagar ahora**, ingresa así a la [plataforma de pago](/user_end/actions.md#plataforma-de-pago) del micrositio, cuando se procede con el pago la plataforma lo lleva inmediatamente a seleccionar el medio de pago evitando que ingrese los datos del tarjetahabiente ya que estos se ingresaron en la creación del link de pagos.
+Desde aquí el tarjetahabiente tiene varias opciones:
+
+* Escanear el código QR con un dispositivo móvil.
+* Seleccionar el botón **Pagar ahora**.
+* Copiar el enlace en un navegador web.
+
+Inmediatamente el sistema se dirige a la [plataforma de pago](/user_end/actions.md#plataforma-de-pago), cuando se procede con el pago te direcciona a seleccionar el medio de pago evitando que se ingrese los datos del tarjetahabiente ya que estos se ingresaron en la creación del link de pagos.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/payLink.png)
 
