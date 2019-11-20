@@ -698,7 +698,7 @@ Posteriormente debe seleccionar el botón **Guardar** que guarda el link de pago
 *Se aclara que guardar y enviar solo aplica para un link de pagos vinculado a un sitio y a los micrositios abiertos.*
 *Para los link de pagos vinculados a micrositios cerrados y personalizados no aplican las funcionalidades que se muestran a continuación ya que estos no generan persistencia en la base de datos por tanto estos solamente generan una url que se puede compartir directamente desde un correo electrónico u otro medio que la puedas copiar para ser enviada a un destinatario y después de terminar todo el proceso nombrado anteriormente no queda registro del link de pago para ser consultado y utilizado nuevamente.*
 
-Cuando seleccionas **Guardar y enviar** el correo electrónico que se envía se ve de la siguiente manera:
+Cuando seleccionas **Guardar y enviar** el correo electrónico que se envía a los clientes se ve de la siguiente manera:
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/emailLink.png)
 
@@ -712,7 +712,7 @@ Inmediatamente el sistema se dirige a la [plataforma de pago](/user_end/actions.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/payLink.png)
 
-Inmediatamente se genera una nueva vista donde puede visualizar el **Detalle del link** con la información del link de pago creado, los datos del pago y la actividad del link.
+Cuando se crea el link de pagos, se genera una nueva vista donde puede visualizar el **Detalle del link** con la información del link de pago creado, los datos del pago y la actividad del link.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/detailLink.png)
 
