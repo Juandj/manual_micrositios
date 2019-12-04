@@ -347,6 +347,19 @@ Inmediatamente después debes ingresar los datos que el comercio provee para la 
 
 Finalmente debes seleccionar el botón **Guardar** e inmediatamente el sistema genera un detalle con la información ingresada, desde aquí puedes editar, eliminar, ver el micrositio con la configuración que se le realizó y modificar las traducciones de los campos que son permitidos para el micrositio personalizado.
 
+**Micrositio personalizado Default**
+
+Cuando se está creando un micrositio personalizado y se selecciona en el campo **Servicio** la opción *Default* aparecen nuevos campos como se ve en la imagen.
+
+![microsites](../../images_folder/administrator/resources/Microsites/personalizedMicrositesDefault.png)
+
+Estos campos permiten realizar de una forma fácil la configuración para que el servicio web del comercio quede integrado con la plataforma de micrositios.
+
+* *Url del servicio:* Se debe ingresar la url que entrega el comercio del servicio.
+* *Código de convenio:* Se ingresa un código de convenio asignado por Placetopay. 
+* *Usuario y contraseña:* Son las credenciales que el comercio asigna al servico y que deben ser entregadas para lograr el acceso a este. 
+* *Tipo de búsqueda:* El tipo de búsqueda define el atributo (Referencia, referencia alterna o documento) que va a utilizar el servicio para consultar las facturas que pueden ser pagadas por el micrositio. 
+
 #### Consulta y detalle de un micrositio
 
 Cuando se guarda o se consulta un micrositio el sistema permite ver un detalle de este donde puedes visualizar los datos ingresados y acceder a diferentes funcionalidades que dependen del tipo de micrositio.
