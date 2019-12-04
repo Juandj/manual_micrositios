@@ -287,6 +287,8 @@ Este logo lo debe configurar en la consola administrativa de PlacetoPay para que
 **Opciones adicionales micrositios personalizados**:
 * *Servicio*: Este campo permite seleccionar el servicio al que se debe asociar el micrositio personalizado, estos servicios se desarrollan con anterioridad dando cumplimiento a una serie de requerimientos de integración con el comercio, por parte del área de tecnología de PlacetoPay.
 
+* *Servicio default*: Dentro de la lista de servios existe la opción *Default* que permite adicionar dentro de los micrositios personalizados otros comercios que tengan la posibilidad de crear un servicio web que cumpla con las especificaciones solicitadas por PlacetoPay contenidas en el documento [M-TEC-380 Servicio de consulta de facturas externo](https://docs.google.com/document/d/1OjoZqP2UrnA7gPI2hRyuPHVFiK93wvndwtsoOTUm060/edit)
+
 * *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites](https://sites.placetopay.com/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
 
 **Opciones adicionales micrositios externos**:

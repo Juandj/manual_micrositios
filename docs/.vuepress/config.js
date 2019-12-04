@@ -3,11 +3,18 @@ module.exports = {
     base: "/micrositios-docs/",
     description: "Documentacion para Micrositios",
     themeConfig: {
-        logo: 'https://dev.placetopay.com/web/wp-content/uploads/2019/02/p2p-logo.svg',
+        logo: 'https://dev.placetopay.com/web/wp-content/uploads/2019/02/p2p-logo_Black.svg',
         sidebar: [
+            a.sidebar-link.active {
+                font-weight: 600;
+                color: #2c3e50;
+                border-left-color: #2c3e50;
+            }
+
             ['', "Inicio"],
             {
                 title: 'Administrador de recursos',
+                Color: color: #2c3e50;
                 colapsable: true,
                 children: [
                     '/administrator_role/#entrada-y-salida-del-software',
