@@ -9,7 +9,7 @@ Cuando acceda a un micrositio puede ver formularios diferentes, dependiendo del 
 
 ### Micrositio cerrado
 
-Para poder realizar un pago el usuario debe ingresar los campos de acceso que se configuran previamente en el momento de la creación de un micrositio. Los campos de acceso se validan conjuntamente frente a los datos almacenados en las base de datos de PlacetoPay, lo que permite consultar los registros pendientes de pago.
+Para poder realizar un pago el usuario debe ingresar los campos de acceso que se configuran previamente en el momento de la creación de un micrositio. Los campos de acceso se validan conjuntamente frente a los datos almacenados en las base de datos de Placetopay, lo que permite consultar los registros pendientes de pago.
 
 ![loginUser_form](../../images_folder/user_end/login/loginClose_form.png)
 

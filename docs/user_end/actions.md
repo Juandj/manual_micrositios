@@ -3,7 +3,7 @@
 
 ## Categorías
 
-Las categorías permiten identificar de una forma amigable y fácil a los micrositios que se agregan a la plataforma de PlacetoPay.
+Las categorías permiten identificar de una forma amigable y fácil a los micrositios que se agregan a la plataforma de Placetopay.
 
 ![myProfile](../../images_folder/user_end/actions/categoriesUser.png)
 
@@ -27,7 +27,7 @@ Dependiendo de la configuración que se le realice en el momento de la creación
 
 ### Detalle de factura
 
-El sistema permite por cada registro de factura pendiente de pago visualizar toda la información que se tenga de estas en la consola de PlacetoPay.
+El sistema permite por cada registro de factura pendiente de pago visualizar toda la información que se tenga de estas en la consola de Placetopay.
 
 ![myProfile](../../images_folder/user_end/actions/payDetailClose.png)
 

@@ -2,7 +2,7 @@
 
 ## Descripción del software
 
-La aplicación permite conectar a los comercios que no tienen implementada una solución web, usando los servicios con las funcionalidades que brinda la plataforma de pagos PlacetoPay. 
+La aplicación permite conectar a los comercios que no tienen implementada una solución web, usando los servicios con las funcionalidades que brinda la plataforma de pagos Placetopay. 
 
 ## Contenido
 

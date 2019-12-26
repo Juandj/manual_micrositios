@@ -1,18 +1,18 @@
 # Recursos
 
-El administrador del sistema tiene acceso a los módulos que permiten configurar la aplicación, entre ellos la creación y configuración de los diferentes tipos de micrositios, crear y administrar otros usuarios desde la [consola de PlacetoPay](https://panel.placetopay.com), a su vez el usuario final podrá ejecutar diferentes acciones previamente configuradas por el administrador.
+El administrador del sistema tiene acceso a los módulos que permiten configurar la aplicación, entre ellos la creación y configuración de los diferentes tipos de micrositios, crear y administrar otros usuarios desde la [consola de Placetopay](https://panel.placetopay.com), a su vez el usuario final podrá ejecutar diferentes acciones previamente configuradas por el administrador.
 
 Es de resaltar que el administrador no podrá crear, anular, autorizar o pagar una factura desde la plataforma de administración de micrositios.
 
-Para un comercio empezar a utilizar la plataforma de micrositios debe estar configurado en la [consola de PlacetoPay](https://panel.placetopay.com) y de igual forma los sitios que hacen parte de este y que interactuarán con el micrositio y demás funcionalidades del sistema.
+Para un comercio empezar a utilizar la plataforma de micrositios debe estar configurado en la [consola de Placetopay](https://panel.placetopay.com) y de igual forma los sitios que hacen parte de este y que interactuarán con el micrositio y demás funcionalidades del sistema.
 
-A continuación se explica como funciona el sistema de [Micrositios](https://sites.placetopay.com/) de PlacetoPay
+A continuación se explica como funciona el sistema de [Micrositios](https://sites.placetopay.com/) de Placetopay
 
 ## Facturas
 
 En este módulo se pueden ejecutar varias actividades las cuales permiten tener un control de las facturas con las que se desea interactuar en el sistema.
 
-Vale anotar que desde aquí al igual que desde la [consola de PlacetoPay](https://panel.placetopay.com/) se pueden importar desde un archivo las facturas que se deben pagar desde un micrositio cerrado.
+Vale anotar que desde aquí al igual que desde la [consola de Placetopay](https://panel.placetopay.com/) se pueden importar desde un archivo las facturas que se deben pagar desde un micrositio cerrado.
 
 ![invoices](../../images_folder/administrator/resources/Invoices/invoices.png)
 
@@ -127,7 +127,7 @@ Para poder importar desde un archivo <code>.csv</code>  el *formato corto* debe 
 
 * Para proceder con el cargue de las facturas en alguno de los formatos debe ingresar los siguientes campos:
 
-**Sitio**: Este campo es de obligatorio ingreso, en este se despliegan los sitios configurados en la consola de PlacetoPay y en el cual se asocian los registros a importar. <br>
+**Sitio**: Este campo es de obligatorio ingreso, en este se despliegan los sitios configurados en la consola de Placetopay y en el cual se asocian los registros a importar. <br>
 **Formato**: Debe seleccionar el formato universidades.<br>
 **Archivos**: Este campo es de obligatorio ingreso, desde este debes seleccionar el archivo ya guardado en tu computador y configurado con las condiciones anteriormente presentadas.<br>
 **Fecha de expiración**: Este campo es de obligatorio ingreso, donde el usuario seleccionará en el calendario la fecha y hora de expiración de las facturas (corte), donde una vez superada ésta quedarán inhabilitadas las facturas para su pago.<br>
@@ -185,7 +185,7 @@ Para proceder a crear un formato solo debes seleccionar el botón **Crear** y el
 
 ![createFormat](../../images_folder/administrator/resources/Transactions/createFormat.png)
 
-**Sitio**: Despliega los sitios asociados en el [panel de PlacetoPay](https://panel.placetopay.com), en este debes seleccionar el sitio al que está asociado el micrositio que deseas crear el formato de exportación.<br> 
+**Sitio**: Despliega los sitios asociados en el [panel de Placetopay](https://panel.placetopay.com), en este debes seleccionar el sitio al que está asociado el micrositio que deseas crear el formato de exportación.<br> 
 **Micrositio**: En este se despliegan los micrositios creados en el sistema y al seleccionar el **Sitio** se filtran los micrositios asociados a este.<br>
 Al seleccionar el sitio se despliegan todos los campos configurados en el momento de la creación del micrositio.
 ![fieldsFormat](../../images_folder/administrator/resources/Transactions/fieldsFormat.png)
@@ -206,7 +206,7 @@ Desde esta opción puedes realizar un exporte de las transacciones realizadas ba
 
 Se debe tener en cuenta que los campos obligatorios contienen un ""*"" para que se puedan identificar fácilmente.
 
-**Sitio**: Despliega los sitios asociados en el [panel de PlacetoPay](https://panel.placetopay.com), en este debes seleccionar el sitio que contiene los registros que deseas exportar.<br>  
+**Sitio**: Despliega los sitios asociados en el [panel de Placetopay](https://panel.placetopay.com), en este debes seleccionar el sitio que contiene los registros que deseas exportar.<br>  
 **Micrositio**: Al momento de seleccionar el sitio en este campo se despliegan los micrositios asociados a este, donde debes seleccionar el que contiene los registros de transacción que deseas exportar. <br>  
 **Fecha de inicio**: En este campo debes seleccionar en el calendario la fecha de inicio desde donde se realizará la consulta de las transacciones.<br>  
 **Fecha de finalización**: Posterior a la fecha de inicio debes seleccionar en el calendario la fecha de fin hasta  donde se realizará la consulta de las transacciones.  
@@ -237,7 +237,7 @@ Cuando un reporte es descargado se puede visualizar así:
 
 ## Micrositios
 
-Los Micrositios son tanto para venta como para recaudadores. Estos son para aquellos clientes que quieren integrarse a PlacetoPay de una forma efectiva y sin realizar mucho desarrollo.
+Los Micrositios son tanto para venta como para recaudadores. Estos son para aquellos clientes que quieren integrarse a Placetopay de una forma efectiva y sin realizar mucho desarrollo.
 
 Actualmente el sistema maneja varios tipos de micrositios como lo son los micrositios abiertos, cerrados, externos y personalizados. 
 Los micrositios personalizados son para clientes que requieren formularios particulares y que pueden ser desarrollados sobre la plataforma, estos formularios particulares son diferentes porque llegan directamente con la base de datos del comercio por medio de una integración utilizando los web services de ambas partes.
@@ -248,19 +248,19 @@ La diferencia entre el micrositio abierto y cerrado es que en el cerrado hay una
 
 ***Antes de crear un micrositio debes tener en cuenta***:
 
-1. Para acceder al panel administrador de Sites debe ser con un usuario (creado en la consola de PlacetoPay) que tenga permisos administradores. 
-2. Para verificar esto, accede a la [consola de PlacetoPay](https://panel.placetopay.com/) e intenta editar un sitio, sí lo puedes hacer significa que puedes crear sin problema un micrositio, pero en el caso contrario no lo podrás hacer.
+1. Para acceder al panel administrador de Sites debe ser con un usuario (creado en la consola de Placetopay) que tenga permisos administradores. 
+2. Para verificar esto, accede a la [consola de Placetopay](https://panel.placetopay.com/) e intenta editar un sitio, sí lo puedes hacer significa que puedes crear sin problema un micrositio, pero en el caso contrario no lo podrás hacer.
 3. Debes saber la información que se solicita en el formulario de creación:
 
-* *Sitios*: es el sitio(s) creado en la consola de PlacetoPay al cual será asociado al micrositio que se creará.
+* *Sitios*: es el sitio(s) creado en la consola de Placetopay al cual será asociado al micrositio que se creará.
 * *Nombre*: es el nombre que adoptará el micrositio tanto en la panel administrador de Sites como en el título de la página.
-Se recomienda que sea igual al que tiene en la consola administrativa de PlacetoPay
+Se recomienda que sea igual al que tiene en la consola administrativa de Placetopay
 * *Alias*: es el nombre que adoptará el micrositio en su dirección web para ingresar desde un navegador.
 * *Categorías*: es la categorización que se le asigna al micrositio por la actividad económica del comercio (Comercializadoras, Donaciones, Educación, Inmobiliarias, Medios de Comunicación, Recaudos, Seguros y Viajes y Turismo).Un micrositio puede estar en una o varias categorías. Esta lista depende de las categorías que se hayan creado en el sistema.
-* *Expiración del pago (minutos)*: es el tiempo límite que el usuario puede tomar para ingresar toda la información en la redirección de PlacetoPay para concluir su pago. Este campo no aplica para los micrositios externos.
+* *Expiración del pago (minutos)*: es el tiempo límite que el usuario puede tomar para ingresar toda la información en la redirección de Placetopay para concluir su pago. Este campo no aplica para los micrositios externos.
 * *Código Css*: no es obligatorio estos datos, pero si el comercio lo requiere puede agregar el código que permita dar un estilo a la interfaz del micrositio. Este campo no aplica para los micrositios externos y personalizados.
 * *Encabezado*: debe de ser un archivo con formato de imagen <code>.png</code> o <code>.jpg</code> que se ubicará en la parte superior del formulario del micrositio, las dimensiones recomendadas deben ser 1140px, 140px y el tamaño máximo del archivo debe ser 3MB. Este campo no aplica para los micrositios externos y personalizados.
-Este logo lo debe configurar en la consola administrativa de PlacetoPay para que en el WebCheckout se visualice el logo del comercio.
+Este logo lo debe configurar en la consola administrativa de Placetopay para que en el WebCheckout se visualice el logo del comercio.
 * *Logo*: Igual al encabezado debe de ser un archivo con formato de imagen <code>.png</code> o <code>.jpg</code> que aparecerá en el home del micrositio, las dimensiones recomendadas deben ser 512px, 512px y el tamaño máximo del archivo debe ser 3MB. Este campo no aplica para los micrositios externos y personalizados.
 * *Pie de página*: debe de ser un archivo con formato de imagen <code>.png</code> o <code>.jpg</code> que se ubicará en la parte inferior del formulario del micrositio para que actúe como footer, las dimensiones recomendadas deben ser 1140px, 140px y el tamaño máximo del archivo debe ser 3MB. Este campo no aplica para los micrositios externos y personalizados.
 
@@ -280,14 +280,14 @@ Este logo lo debe configurar en la consola administrativa de PlacetoPay para que
 * *Campos de acceso*: *Referencia, documento, referencia alterna*. Los campos de acceso se configuran para consultar las facturas que el comercio provee para gestionar el pago por el micrositio, se pueden configurar mínimo dos campos en cualquiera de sus combinaciones, o en su defecto los tres campos mencionados anteriormente. 
 * *Mostrar únicamente factura con referencia asociada a los campos de acceso*: Al habilitar esta opción el sistema solo consulta las facturas que hagan parte de los datos de acceso ingresados de lo contrario mostrará todas las facturas pendientes de pago por el cliente.
 * *Mostrar consecutivo*: Agrega columna de consecutivo que aumenta por cada factura con referencia alterna y documento igual, lo cual permite diferenciar las facturas que se están pagando.
-* *Permite pagar varias facturas a la vez*: Con esta opción habilitada un usuario puede seleccionar varias facturas a la vez creando una referencia automática en los datos adicionales de la  transacción en la consola administrativa de PlacetoPay donde aparecerán las referencias de las transacciones pagadas.
+* *Permite pagar varias facturas a la vez*: Con esta opción habilitada un usuario puede seleccionar varias facturas a la vez creando una referencia automática en los datos adicionales de la  transacción en la consola administrativa de Placetopay donde aparecerán las referencias de las transacciones pagadas.
 * *Pagar más antiguas primero*: Cuando esta opción se habilita, al ingresar a la pantalla de pagos el sistema no permite pagar si no se han seleccionado o pagado las facturas más antiguas primero.
 * *No almacenar sesión en webCheckOut*: Esta opción se puede utilizar cuando tienes pagos parciales habilitados y deseas controlar que no se almacene el correo electrónico en la [plataforma de pago](/user_end/actions.md#plataforma-de-pago) cuando realizas un pago parcial, ya que si no está habilitada esta opción la próxima vez que se ingrese a completar un pago parcial no pedirá el correo electrónico.
 
 **Opciones adicionales micrositios personalizados**:
-* *Servicio*: Este campo permite seleccionar el servicio al que se debe asociar el micrositio personalizado, estos servicios se desarrollan con anterioridad dando cumplimiento a una serie de requerimientos de integración con el comercio, por parte del área de tecnología de PlacetoPay.
+* *Servicio*: Este campo permite seleccionar el servicio al que se debe asociar el micrositio personalizado, estos servicios se desarrollan con anterioridad dando cumplimiento a una serie de requerimientos de integración con el comercio, por parte del área de tecnología de Placetopay.
 
-* *Servicio default*: Dentro de la lista de servios existe la opción *Default* que permite adicionar dentro de los micrositios personalizados otros comercios que tengan la posibilidad de crear un servicio web que cumpla con las especificaciones solicitadas por PlacetoPay contenidas en el documento [M-TEC-380 Servicio de consulta de facturas externo](https://docs.google.com/document/d/1OjoZqP2UrnA7gPI2hRyuPHVFiK93wvndwtsoOTUm060/edit)
+* *Servicio default*: Dentro de la lista de servios existe la opción *Default* que permite adicionar dentro de los micrositios personalizados otros comercios que tengan la posibilidad de crear un servicio web que cumpla con las especificaciones solicitadas por Placetopay contenidas en el documento [M-TEC-380 Servicio de consulta de facturas externo](https://docs.google.com/document/d/1OjoZqP2UrnA7gPI2hRyuPHVFiK93wvndwtsoOTUm060/edit)
 
 * *Logo para la categoría*: debe de ser un archivo con formato de imagen <code>.png</code> que se ubicará en el cuerpo de [sites](https://sites.placetopay.com/), las dimensiones recomendadas deben ser 277.5px, 463.84px y el tamaño máximo del archivo debe ser 3MB.
 
@@ -388,7 +388,7 @@ Cuando se ingresa al detalle de un micrositio abierto puedes ver en la parte sup
 
       ![microsites](../../images_folder/administrator/resources/Microsites/fieldType.png)
 
-   2. *Nombre del campo*: es el nombre con el que se reconocerá la información adicional sobre la transacción en la consola administrativa de PlacetoPay. Este campo no debe contener mayúsculas ni espacios.
+   2. *Nombre del campo*: es el nombre con el que se reconocerá la información adicional sobre la transacción en la consola administrativa de Placetopay. Este campo no debe contener mayúsculas ni espacios.
 
       ![microsites](../../images_folder/administrator/resources/Microsites/fieldName.png)
 
@@ -584,7 +584,7 @@ La mayoría de micrositios (Abiertos, cerrados y personalizados) permiten modifi
 
 ![microsites](../../images_folder/administrator/resources/Microsites/traductionMicrosites.png)
 
-2. En el formulario de traducciones se pueden ver varios idiomas que dependen de aquellos que se agreguen desde la consola administrativa de [PlacetoPay](https://panel.placetopay.com) a los comercios para que se visualicen y pueda ser administrado desde el micrositio creado.
+2. En el formulario de traducciones se pueden ver varios idiomas que dependen de aquellos que se agreguen desde la consola administrativa de [Placetopay](https://panel.placetopay.com) a los comercios para que se visualicen y pueda ser administrado desde el micrositio creado.
 
 3. Cuando ingresas a la opción de *Traducciones* puedes seleccionar uno de los idiomas que deseas cambiar la traducción.
 
@@ -656,11 +656,11 @@ Para eliminar un micrositio debes ingresar al detalle de este y seleccionar el b
 
 En caso de que el micrositio ya tenga un pago realizado el micrositio no permite eliminarlo físicamente de la base de datos, pero sí puede *Deshabilitar el micrositio* para que no se pueda utilizar por un usuario final.
 
-En caso que un sitio se elimine desde la consola administrativa de PlacetoPay y este tiene un micrositio asociado automáticamente este se deshabilita. 
+En caso que un sitio se elimine desde la consola administrativa de Placetopay y este tiene un micrositio asociado automáticamente este se deshabilita. 
 
 ## Link de pago
 
-Es la funcionalidad que ofrece PlacetoPay para generar un enlace con los datos relevantes como: valor de la venta, referencia de su producto y datos del comprador, para ser utilizado en correos electrónicos, chat o redes sociales.
+Es la funcionalidad que ofrece Placetopay para generar un enlace con los datos relevantes como: valor de la venta, referencia de su producto y datos del comprador, para ser utilizado en correos electrónicos, chat o redes sociales.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/paymentLink.png)
 
@@ -679,6 +679,7 @@ Cuando estamos en la pantalla de creación se deben tener en cuenta los compos:
 * Posteriormente puedes agregar un **Nombre** al link de pagos para identificarlo fácilmente o dejar el que el sistema te sugiere de forma aleatoria.
 
 * En el campo **Número de pagos permitidos** debes agregar un número que define la cantidad de pagos permitidos por los tarjetahabiente en el link de pagos. En caso de que no se ingrese ningún número de pagos permitidos no se tendrá un límite de pagos y el link finaliza cuando la *fecha de expiración del link* se cumpla. *Este campo no aplica para los micrositios cerrados*.
+Es importante tener en cuenta que un link de pagos permite realizar solo un pago por usuario.
 
 * En el **Tiempo de expiración del proceso de pago** permite ingresar un número que determina la cantidad de tiempo en minutos que un tarjetahabiente se puede demorar realizando un pago después de iniciar el proceso. El tiempo mínimo que el campo permite son 10 minutos. *Este campo no aplica para los micrositios cerrados*
 
@@ -700,7 +701,7 @@ Los siguientes campos se nombran por la particularidad que tienen al momento de 
 
 * En el campo **Referencia** normalmente se ingresa el número de la factura.
 * El campo **Correo electrónico** de los pagadores permite el ingreso de más de un correo electrónico.
-* En el campo **Moneda** se listan los tipos de moneda que tenga asociado el sitio en la consola de PlacetoPay o el micrositio en el momento de la creación.
+* En el campo **Moneda** se listan los tipos de moneda que tenga asociado el sitio en la consola de Placetopay o el micrositio en el momento de la creación.
 
 Posteriormente cuando se ingresa toda la información en los campos se debe seleccionar el botón **Siguiente** donde podemos visualizar un resumen de la información que se a ingresado para el link de pagos.
 
@@ -753,7 +754,7 @@ Entres las opciones de compartir están:
 
 * *Enviar por correo electrónico*: Al seleccionar esta opción se desprende un formulario donde puedes ingresar uno o varios correos electrónicos para que se envíe a estos el link de pagos creado.
 
-Adicionalmente puedes seleccionar el idioma en que le debe llegar el correo electrónico al tarjetahabiente, los idiomas que se listen dependen de los que tenga configurados el sitio en la consola administrativa de PlacetoPay.
+Adicionalmente puedes seleccionar el idioma en que le debe llegar el correo electrónico al tarjetahabiente, los idiomas que se listen dependen de los que tenga configurados el sitio en la consola administrativa de Placetopay.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/sendEmailLink.png)
 
@@ -801,4 +802,4 @@ Inmediatamente se muestra el **Detalle del link de pagos** donde puede hacer uso
   
 ## Seguridad
 
-Desde la [consola administrativa de PlacetoPay](https://panel.placetopay.com/) el admisnitrador de la misma es el encargado de la creación de usuarios, restauración de contraseñas, asignación de roles y permisos a los diferentes módulos o funcionalidades que presta la plataforma de micrositios.
+Desde la [consola administrativa de Placetopay](https://panel.placetopay.com/) el admisnitrador de la misma es el encargado de la creación de usuarios, restauración de contraseñas, asignación de roles y permisos a los diferentes módulos o funcionalidades que presta la plataforma de micrositios.

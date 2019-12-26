@@ -2,7 +2,7 @@
 
 ## Ingreso 
 
-El sistema permite acceder a las funcionalidades dependiendo del grupo de permisos que sea configurado desde la aplicación Panel de PlacetoPay, con el fin de habilitar los módulos que son requeridos para ejecutar sus actividades.
+El sistema permite acceder a las funcionalidades dependiendo del grupo de permisos que sea configurado desde la aplicación Panel de Placetopay, con el fin de habilitar los módulos que son requeridos para ejecutar sus actividades.
 
 Para ingresar a Microsites Colombia debes ingresar a la URL [https://sites.placetopay.com/](https://sites.placetopay.com/)
 Para ingresar a Microsites Ecuador debes ingresar a la URL [https://sites.placetopay.ec/](https://sites.placetopay.ec/)
