@@ -678,7 +678,7 @@ Cuando estamos en la pantalla de creación se deben tener en cuenta los compos:
 
 * Posteriormente puedes agregar un **Nombre** al link de pagos para identificarlo fácilmente o dejar el que el sistema te sugiere de forma aleatoria.
 
-* En el campo **Número de pagos permitidos** debes agregar un número que define la cantidad de pagos permitidos por los tarjetahabiente en el link de pagos. En caso de que no se ingrese ningún número de pagos permitidos no se tendrá un límite de pagos y el link finaliza cuando la *fecha de expiración del link* se cumpla. *Este campo no aplica para los micrositios cerrados*.
+* En el campo **Número de pagos permitidos** debes agregar un número que define la cantidad de pagos permitidos por los tarjetahabiente en el link de pagos. En caso de que no se ingrese ningún número de pagos permitidos no se tendrá un límite de pagos y el link finaliza cuando la *fecha de expiración del link* se cumpla. *Este campo no aplica para los micrositios cerrados*.<br>
 Es importante tener en cuenta que un link de pagos permite realizar solo un pago por usuario.
 
 * En el **Tiempo de expiración del proceso de pago** permite ingresar un número que determina la cantidad de tiempo en minutos que un tarjetahabiente se puede demorar realizando un pago después de iniciar el proceso. El tiempo mínimo que el campo permite son 10 minutos. *Este campo no aplica para los micrositios cerrados*
