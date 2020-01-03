@@ -87,15 +87,15 @@ El sistema permite importar de forma masiva a partir de un archivo con formatos 
 
 En esta opción el archivo debe estar parametrizado con las siguientes condiciones:
 
-|No|Campo|Longitud|Descripción|
-|--|-----|--------|-----------|
-|1|Número de prefactura|13|DEBE SER VALOR NUMÉRICO|
-|2|Nombre|30|NOMBRE DEL DEUDOR DE LA FACTURA|
-|3|Cédula (CI)|10|DEBE SER VALOR NUMÉRICO|
-|4|Valor|9|7 ENTEROS Y 2 DECIMALES|
-|5|Fecha|8|AAAAMMDD, FECHA MÁXIMA DE PAGO|
-|6|Estatus|1|POR DEFECTO SE INGRESA LA LETRA "E"|
-|7|Código de universidad|3|VALOR NUMÉRICO ASIGNADO POR EL BANCO A LA UNIVERSIDAD|
+| No | Campo                 | Longitud | Descripción                                           |
+|----|-----------------------|----------|-------------------------------------------------------|
+| 1  | Número de prefactura  | 13       | DEBE SER VALOR NUMÉRICO                               |
+| 2  | Nombre                | 30       | NOMBRE DEL DEUDOR DE LA FACTURA                       |
+| 3  | Cédula (CI)           | 10       | DEBE SER VALOR NUMÉRICO                               |
+| 4  | Valor                 | 9        | 7 ENTEROS Y 2 DECIMALES                               |
+| 5  | Fecha                 | 8        | AAAAMMDD, FECHA MÁXIMA DE PAGO                        |
+| 6  | Estatus               | 1        | POR DEFECTO SE INGRESA LA LETRA "E"                   |
+| 7  | Código de universidad | 3        | VALOR NUMÉRICO ASIGNADO POR EL BANCO A LA UNIVERSIDAD |
 
 
 El archivo para poderlo importar desde un archivo de texto debe quedar como se muestra a continuación:
@@ -106,20 +106,20 @@ El archivo para poderlo importar desde un archivo de texto debe quedar como se m
 
 Para el importe del archivo en el formato corto se deben cumplir con las siguientes especificaciones:
 
-|NO.|CAMPO|DESCRIPCION|TIPO|LONG.|OBLIGATORIO|
-|---|-----|-----------|----|-----|-----------|
-|1|Código de Orientación|Campo fijo CO = Cobro|CHAR|2|Si|
-|2|Contrapartida|Referencia principal|CHAR|20|Si|
-|3|Moneda|Código de Moneda del Movimiento. Campo fijo USD = Dólares|CHAR|3|Si|
-|4|Valor|Valor del Movimiento = 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576|NUM|13|Si|
-|5|Forma de cobro|Campo fijo REC = Recaudación|CHAR|3|Si|
-|6|Tipo de cuenta|No aplica|CHAR|3|No|
-|7|Número de cuenta|No aplica|NUM|20|No|
-|8|Referencia|Descripción|CHAR|40|Si|
-|9|Tipo ID|Tipo de Identificación del beneficiario o deudor. Campo fijo C = Cédula , R = RUC, P = Pasaporte|CHAR|1|Si|
-|10|Número ID|Número de Identificación del beneficiario o deudor|CHAR|14|Si|
-|11|Nombre|Nombre del beneficiario o deudor|CHAR|41|Si|
-|12|Base imponible|Si no tiene dato se asume el monto del campo Valor. Registrar 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576|NUM|13|Si|
+| NO. | CAMPO                 | DESCRIPCION                                                                                                                                                                                                   | TIPO | LONG. | OBLIGATORIO |
+|-----|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|-------|-------------|
+| 1   | Código de Orientación | Campo fijo CO = Cobro                                                                                                                                                                                         | CHAR | 2     | Si          |
+| 2   | Contrapartida         | Referencia principal                                                                                                                                                                                          | CHAR | 20    | Si          |
+| 3   | Moneda                | Código de Moneda del Movimiento. Campo fijo USD = Dólares                                                                                                                                                     | CHAR | 3     | Si          |
+| 4   | Valor                 | Valor del Movimiento = 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576                                        | NUM  | 13    | Si          |
+| 5   | Forma de cobro        | Campo fijo REC = Recaudación                                                                                                                                                                                  | CHAR | 3     | Si          |
+| 6   | Tipo de cuenta        | No aplica                                                                                                                                                                                                     | CHAR | 3     | No          |
+| 7   | Número de cuenta      | No aplica                                                                                                                                                                                                     | NUM  | 20    | No          |
+| 8   | Referencia            | Descripción                                                                                                                                                                                                   | CHAR | 40    | Si          |
+| 9   | Tipo ID               | Tipo de Identificación del beneficiario o deudor. Campo fijo C = Cédula , R = RUC, P = Pasaporte                                                                                                              | CHAR | 1     | Si          |
+| 10  | Número ID             | Número de Identificación del beneficiario o deudor                                                                                                                                                            | CHAR | 14    | Si          |
+| 11  | Nombre                | Nombre del beneficiario o deudor                                                                                                                                                                              | CHAR | 41    | Si          |
+| 12  | Base imponible        | Si no tiene dato se asume el monto del campo Valor. Registrar 11 enteros y 2 decimales. No utilizar separadores de miles ni de decimales, por ejemplo si el valor del movimiento es 12.645,76 colocar 1264576 | NUM  | 13    | Si          |
 
 Para poder importar desde un archivo <code>.csv</code>  el *formato corto* debe quedar como se muestra a continuación:
 
