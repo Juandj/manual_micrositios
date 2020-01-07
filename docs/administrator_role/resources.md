@@ -746,7 +746,7 @@ En caso de que al usuario no le llegue el correo electrónico será posible sele
 
 #### Compartir
 
-Después de guardar y enviar el link de pagos este se permite enviar nuevamente por la opción Compartir ubicada en la parte superior derecha de la vista [Detalles del link de pago](/administrator_role/resources.md#ver-detalles-del-link-de-pago) la cual se puede acceder desde el listado de link de pagos creados o también la puedes ver cuando se termina de crear el link de pagos como se mostró anteriormente.
+Después de guardar y enviar el link de pagos este se permite enviar nuevamente por la opción **Compartir** ubicada en la parte superior derecha de la vista [Detalles del link de pago](/administrator_role/resources.md#ver-detalles-del-link-de-pago) la cual se puede acceder desde el listado de link de pagos creados o también la puedes ver cuando se termina de crear el link de pagos como se mostró anteriormente.
 
 ![paymentLink](../../images_folder/administrator/resources/Payment_links/shareLink.png)
 
