@@ -372,6 +372,8 @@ Cuando se selecciona se ejecuta un detalle que muestra los datos que dependen de
 
 ![microsites](../../images_folder/administrator/resources/Microsites/detailMicrosites.png)
 
+Desde este detalle se puede **Ver código QR** dónde puedes copiar la imagen del código QR y compartirla para que se conecten al micrositio y puedan ingresar a consultar los pendientes de pago y posteriormente realizar el proceso transaccional.
+
 #### Crear un nuevo campo (additional data) en un micrositio abierto
 
 Los micrositios abiertos tienen una particularidad importante dentro del sistema y es que permiten definir y diseñar nuevos tipos de campos haciendo de esta forma este tipo de micrositios los más dinámicos del sistema.
