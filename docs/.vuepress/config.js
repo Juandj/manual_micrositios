@@ -3,7 +3,7 @@ module.exports = {
     base: "/micrositios-docs/",
     description: "Documentacion para Micrositios",
     themeConfig: {
-        logo: 'https://dev.placetopay.com/web/wp-content/uploads/2019/02/p2p-logo_Black.svg',
+        logo: 'https://dev.placetopay.com/web/wp-content/uploads/2020/03/p2p-logo-default.svg',
         sidebar: [
 
             ['', "Inicio"],
