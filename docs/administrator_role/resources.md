@@ -281,7 +281,7 @@ Este logo lo debe configurar en la consola administrativa de Placetopay para que
 * *Mostrar únicamente factura con referencia asociada a los campos de acceso*: Al habilitar esta opción el sistema solo consulta las facturas que hagan parte de los datos de acceso ingresados de lo contrario mostrará todas las facturas pendientes de pago por el cliente.
 * *Mostrar consecutivo*: Agrega columna de consecutivo que aumenta por cada factura con referencia alterna y documento igual, lo cual permite diferenciar las facturas que se están pagando.
 * *Permite pagar varias facturas a la vez*: Con esta opción habilitada un usuario puede seleccionar varias facturas a la vez creando una referencia automática en los datos adicionales de la  transacción en la consola administrativa de Placetopay donde aparecerán las referencias de las transacciones pagadas.
-* *Permite pagos con dispersión*: Esta opción se debe utilizar para aquellos comercios que necesitan que al realizar una transacción el monto se disperce en varias cuentas definidas y configuradas previemnete en el panel administrativo.
+* *Permite pagos con dispersión*: Esta opción se debe utilizar para aquellos comercios que necesitan que al realizar una transacción el monto se disperse en varias cuentas definidas y configuradas previamente en el panel administrativo.
 * *No almacenar sesión en webCheckOut*: Esta opción se puede utilizar cuando tienes pagos parciales habilitados y deseas controlar que no se almacene el correo electrónico en la [plataforma de pago](/user_end/actions.md#plataforma-de-pago) cuando realizas un pago parcial, ya que si no está habilitada esta opción la próxima vez que se ingrese a completar un pago parcial no pedirá el correo electrónico.
 * *Pagar más antiguas primero*: Cuando esta opción se habilita, al ingresar a la pantalla de pagos el sistema no permite pagar si no se han seleccionado o pagado las facturas más antiguas primero.
 
@@ -326,7 +326,6 @@ Cuando seleccionas micrositios cerrado se abre el siguiente formulario:
 Desde aquí se ingresan los datos que el comercio provee para la creación del micrositio cerrado.
 
 Para terminar con la creación del micrositio cerrado debes seleccionar el botón **Guardar** inmediatamente el sistema genera un detalle con la información ingresada, donde puedes editar, eliminar, ver el micrositio con la configuración que se le realizó y modificar las traducciones de los campos que son permitidos para el micrositio cerrado.
-
 
 ##### Micrositio externo
 
