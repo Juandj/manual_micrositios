@@ -4,7 +4,7 @@
   "description": "1. General.\r    - Descripción del software\r    - Idioma.\r   - Iconos.\r   - Filtros.\r    - Medidas de seguridad y contingencia.",
   "main": "index.js",
   "dependencies": {
-    "vuepress": "^0.14.10",
+    "vuepress": "^1.9.7",
     "webpack-dev-middleware": "^3.6.0"
   },
   "devDependencies": {},
